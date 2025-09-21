@@ -1,327 +1,327 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
-  <diagram name="Page-1" id="3Wz-Y56wL98hJcMAcrOa">
-    <mxGraphModel dx="3574" dy="2011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1600" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2025-09-21T04:02:14.321Z" agent="Mozilla/5.0" etag="final_refactor_v1" version="24.7.4" type="device">
+  <diagram name="MEVI_Architecture_Final" id="MEVI_Arch_Diagram">
+    <mxGraphModel dx="2123" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="h1_QW3-1zJkIe430p1bT-423" value="Kiến trúc Hệ thống MEVI trên Google Cloud Platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="diagram_title" value="Kiến trúc Hệ thống MEVI trên Google Cloud Platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="725" y="30" width="640" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="background-gcp" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#C5E1A5;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="bg_gcp_main" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#C5E1A5;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="350" y="110" width="1710" height="1420" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-21" value="Google Cloud Platform (GCP)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1000" y="120" width="270" height="30" as="geometry" />
+        <mxCell id="title_gcp_main" value="Google Cloud Platform (GCP)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="360" y="120" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="group-clients" style="group" parent="1" vertex="1" connectable="0">
+        <mxCell id="group_clients" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="20" y="150" width="310" height="710" as="geometry" />
         </mxCell>
-        <mxCell id="background-clients" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#b3e5fc;strokeWidth=2;opacity=80;" parent="group-clients" vertex="1">
-          <mxGeometry width="310" height="710" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-2" value="Người dùng &amp;amp; Hệ thống ngoài" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group-clients" vertex="1">
-          <mxGeometry y="20" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-3" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Web User&lt;/b&gt;&lt;br&gt;(Nông dân, Quản trị viên, Giảng viên)&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome/svgs/solid/users.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-clients" vertex="1">
-          <mxGeometry x="115" y="80" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-4" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Mobile User&lt;/b&gt;&lt;br&gt;(Nông dân)&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/android;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-clients" vertex="1">
-          <mxGeometry x="115" y="230" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-5" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Zalo User&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;(Truy xuất nguồn gốc, CSKH)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/zalo;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-clients" vertex="1">
-          <mxGeometry x="115" y="380" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-6" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Hệ thống bên thứ 3&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;(GS1, Cổng thanh toán...)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/gnometerminal;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-clients" vertex="1">
-          <mxGeometry x="115" y="530" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="line-clients-to-edge" value="" style="shape=line;strokeWidth=2;direction=south;html=1;" parent="group-clients" vertex="1">
-          <mxGeometry x="280" y="80" width="10" height="490" as="geometry" />
-        </mxCell>
-        <mxCell id="group-edge" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="380" y="660" width="480" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="background-edge" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE9E7;strokeColor=#FFAB91;strokeWidth=2;opacity=80;" parent="group-edge" vertex="1">
-          <mxGeometry width="480" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-37" value="GCP Edge &amp;amp; Security" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group-edge" vertex="1">
-          <mxGeometry y="20" width="480" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-26" value="&lt;b&gt;Cloud Armor&lt;/b&gt;&lt;br&gt;(DDoS Protection)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_armor-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-edge" vertex="1">
-          <mxGeometry x="80" y="70" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-25" value="&lt;div&gt;&lt;b&gt;Cloud Load Balancing&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(Global External HTTPS LB)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_load_balancing-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-edge" vertex="1">
-          <mxGeometry x="270" y="70" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="group-frontend" style="group" parent="1" vertex="1" connectable="0">
+        <mxCell id="group_frontend" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="380" y="160" width="480" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="background-frontend" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FFCC80;strokeWidth=2;opacity=80;" parent="group-frontend" vertex="1">
+        <mxCell id="group_edge" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="380" y="660" width="480" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="group_iot" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="980" y="160" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="group_backend" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1000" y="350" width="410" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="group_data" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1560" y="350" width="280" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="group_devops" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="380" y="980" width="520" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="group_analytics" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1000" y="980" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_clients" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#b3e5fc;strokeWidth=2;opacity=80;" parent="group_clients" vertex="1">
+          <mxGeometry width="310" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="title_clients" value="Người dùng &amp;amp; Hệ thống ngoài" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group_clients" vertex="1">
+          <mxGeometry y="20" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_web_user" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Web User&lt;/b&gt;&lt;br&gt;(Nông dân, Quản trị viên, Giảng viên)&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome/svgs/solid/users.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_clients" vertex="1">
+          <mxGeometry x="115" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_mobile_user" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Mobile User&lt;/b&gt;&lt;br&gt;(Nông dân)&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/android;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_clients" vertex="1">
+          <mxGeometry x="115" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_zalo_user" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Zalo User&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;(Truy xuất nguồn gốc, CSKH)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/zalo;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_clients" vertex="1">
+          <mxGeometry x="115" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_third_party" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Hệ thống bên thứ 3&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;(GS1, Cổng thanh toán...)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/gnometerminal;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_clients" vertex="1">
+          <mxGeometry x="115" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="line_clients_outbound" value="" style="shape=line;strokeWidth=2;direction=south;html=1;" parent="group_clients" vertex="1">
+          <mxGeometry x="280" y="80" width="10" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_frontend" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FFCC80;strokeWidth=2;opacity=80;" parent="group_frontend" vertex="1">
           <mxGeometry width="480" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-152" value="Frontend Applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group-frontend" vertex="1">
+        <mxCell id="title_frontend" value="Frontend Applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group_frontend" vertex="1">
           <mxGeometry y="20" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-157" value="&lt;b&gt;Admin &amp;amp; E-learning&lt;/b&gt;&lt;br&gt;&lt;i&gt;ReactJS&lt;/i&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/react;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-frontend" vertex="1">
+        <mxCell id="icon_react_app" value="&lt;b&gt;Admin &amp;amp; E-learning&lt;/b&gt;&lt;br&gt;&lt;i&gt;ReactJS&lt;/i&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/react;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_frontend" vertex="1">
           <mxGeometry x="80" y="140" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-156" value="&lt;b&gt;Public Website&lt;br&gt;&lt;/b&gt;&lt;i&gt;Next.js&lt;/i&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/nextdotjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-frontend" vertex="1">
+        <mxCell id="icon_nextjs_app" value="&lt;b&gt;Public Website&lt;br&gt;&lt;/b&gt;&lt;i&gt;Next.js&lt;/i&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/nextdotjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_frontend" vertex="1">
           <mxGeometry x="270" y="140" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-171" value="&lt;b&gt;Frontend Hosting&lt;/b&gt;&lt;br&gt;Cloud Run" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_run-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-frontend" vertex="1">
+        <mxCell id="icon_cloud_run" value="&lt;b&gt;Frontend Hosting&lt;/b&gt;&lt;br&gt;Cloud Run" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_run-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_frontend" vertex="1">
           <mxGeometry x="80" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-151" value="&lt;b&gt;API Gateway&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/api_gateway-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-frontend" vertex="1">
+        <mxCell id="icon_api_gateway" value="&lt;b&gt;API Gateway&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/api_gateway-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_frontend" vertex="1">
           <mxGeometry x="370" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="A5h6l5R830i5kY2y2g3p-4" value="Serve static assets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group-frontend" vertex="1" connectable="0">
+        <mxCell id="label_serve_assets" value="Serve static assets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group_frontend" vertex="1" connectable="0">
           <mxGeometry x="100" y="245" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="group-backend" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1000" y="350" width="410" height="580" as="geometry" />
+        <mxCell id="bg_edge" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE9E7;strokeColor=#FFAB91;strokeWidth=2;opacity=80;" parent="group_edge" vertex="1">
+          <mxGeometry width="480" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="background-backend" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE7F6;strokeColor=#B39DDB;strokeWidth=2;opacity=80;" parent="group-backend" vertex="1">
-          <mxGeometry width="410" height="580" as="geometry" />
+        <mxCell id="title_edge" value="GCP Edge &amp;amp; Security" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group_edge" vertex="1">
+          <mxGeometry y="20" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-46" value="Microservices Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group-backend" vertex="1">
-          <mxGeometry y="20" width="410" height="30" as="geometry" />
+        <mxCell id="icon_cloud_armor" value="&lt;b&gt;Cloud Armor&lt;/b&gt;&lt;br&gt;(DDoS Protection)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_armor-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_edge" vertex="1">
+          <mxGeometry x="80" y="70" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-12" value="&lt;b&gt;Google Kubernetes Engine&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/kubernetes_engine-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-backend" vertex="1">
-          <mxGeometry x="40" y="250" width="80" height="80" as="geometry" />
+        <mxCell id="icon_load_balancer" value="&lt;div&gt;&lt;b&gt;Cloud Load Balancing&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(Global External HTTPS LB)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_load_balancing-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_edge" vertex="1">
+          <mxGeometry x="270" y="70" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-52" value="&lt;b&gt;EDUCATION Module&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;(NestJS)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/nestjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-backend" vertex="1">
-          <mxGeometry x="200" y="80" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-53" value="&lt;b&gt;FARM Module&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;(NestJS)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/nestjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-backend" vertex="1">
-          <mxGeometry x="200" y="200" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-54" value="&lt;b&gt;FACTORY Module&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;(NestJS)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/nestjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-backend" vertex="1">
-          <mxGeometry x="200" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-55" value="&lt;b&gt;SHOP Module&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;(NestJS)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/nestjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-backend" vertex="1">
-          <mxGeometry x="200" y="440" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="line-for-api-request" value="" style="shape=line;strokeWidth=2;direction=south;html=1;" parent="group-backend" vertex="1">
-          <mxGeometry x="330" y="80" width="10" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-50" value="API Requests" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group-backend" vertex="1" connectable="0">
-          <mxGeometry x="35" y="250" as="geometry">
-            <mxPoint y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="group-data" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1560" y="350" width="280" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="background-datastores" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFEBE9;strokeColor=#BCAAA4;strokeWidth=2;opacity=80;" parent="group-data" vertex="1">
-          <mxGeometry width="280" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-61" value="Data Stores" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group-data" vertex="1">
-          <mxGeometry y="20" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-62" value="&lt;b&gt;Cloud SQL&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(PostgreSQL)&lt;br&gt;Dữ liệu có cấu trúc&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/postgresql;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-data" vertex="1">
-          <mxGeometry x="80" y="80" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-64" value="&lt;b&gt;Firestore&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Dữ liệu bán cấu trúc&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_firestore-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-data" vertex="1">
-          <mxGeometry x="80" y="250" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-65" value="&lt;b&gt;Memorystore&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(Redis Caching)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/redis;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-data" vertex="1">
-          <mxGeometry x="80" y="420" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="group-analytics" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1000" y="980" width="460" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="background-analytics" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#80CBC4;strokeWidth=2;opacity=80;" parent="group-analytics" vertex="1">
-          <mxGeometry width="460" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-91" value="Data Analytics &amp;amp; Business Intelligence (BI)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group-analytics" vertex="1">
-          <mxGeometry y="20" width="460" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-93" value="&lt;b&gt;Metabase&lt;/b&gt;&lt;br&gt;(Open Source BI Tool)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/metabase;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-analytics" vertex="1">
-          <mxGeometry x="80" y="80" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-92" value="&lt;b&gt;BigQuery&lt;/b&gt;&lt;br&gt;&lt;div&gt;(Data Warehouse)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/bigquery-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-analytics" vertex="1">
-          <mxGeometry x="290" y="80" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-95" value="Query Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group-analytics" vertex="1" connectable="0">
-          <mxGeometry x="185" y="105" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="group-devops" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="380" y="980" width="520" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="background-devops" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#F8BBD0;strokeWidth=2;opacity=80;" parent="group-devops" vertex="1">
-          <mxGeometry width="520" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-107" value="Quy trình Phát triển, Vận hành &amp;amp; Xác thực" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group-devops" vertex="1">
-          <mxGeometry y="20" width="520" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-108" value="&lt;b&gt;GitHub&lt;/b&gt;&lt;br&gt;(Source Code Management)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/github;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-devops" vertex="1">
-          <mxGeometry x="40" y="80" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-110" value="&lt;b&gt;CI/CD Pipeline&lt;/b&gt;&lt;br&gt;(Cloud Build)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_build-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-devops" vertex="1">
-          <mxGeometry x="210" y="80" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-112" value="Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group-devops" vertex="1" connectable="0">
-          <mxGeometry x="145" y="105" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-146" value="&lt;b&gt;Google Identity Platform&lt;/b&gt;&lt;br&gt;(SSO, MFA, RBAC)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/identity_platform-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-devops" vertex="1">
-          <mxGeometry x="340" y="80" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-116" value="Deploy to GKE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="965" y="945" as="geometry">
-            <mxPoint x="2" y="-11" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-136" value="&lt;b&gt;Cloud Logging&lt;/b&gt;&lt;br&gt;(Audit Logs)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/logging-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="980" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-138" value="Ghi Logs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1405" y="945" as="geometry">
-            <mxPoint x="-1" y="23" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-148" value="Xác thực &amp;amp; Phân quyền" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="815" y="755" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-166" value="Nhúng Dashboard" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="724" y="965" as="geometry">
-            <mxPoint y="-11" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="group-iot" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="980" y="160" width="410" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-170" value="Mở rộng trong tương lai (IoT)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group-iot" vertex="1">
+        <mxCell id="title_iot" value="Mở rộng trong tương lai (IoT)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group_iot" vertex="1">
           <mxGeometry y="10" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-210" value="&lt;b&gt;IoT Devices&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(Cảm biến)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/espressif;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-iot" vertex="1">
+        <mxCell id="icon_iot_devices" value="&lt;b&gt;IoT Devices&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(Cảm biến)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/espressif;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_iot" vertex="1">
           <mxGeometry x="20" y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-211" value="&lt;b&gt;Cloud Pub/Sub&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_pub-sub-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-iot" vertex="1">
+        <mxCell id="icon_pubsub" value="&lt;b&gt;Cloud Pub/Sub&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_pub-sub-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_iot" vertex="1">
           <mxGeometry x="160" y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-214" value="&lt;b&gt;Cloud Functions&lt;/b&gt;&lt;br&gt;(Xử lý dữ liệu IoT)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_functions-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-iot" vertex="1">
+        <mxCell id="icon_cloud_functions" value="&lt;b&gt;Cloud Functions&lt;/b&gt;&lt;br&gt;(Xử lý dữ liệu IoT)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_functions-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_iot" vertex="1">
           <mxGeometry x="300" y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-213" value="Data Stream" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group-iot" vertex="1" connectable="0">
+        <mxCell id="label_data_stream" value="Data Stream" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group_iot" vertex="1" connectable="0">
           <mxGeometry x="100" y="65" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-216" value="Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group-iot" vertex="1" connectable="0">
+        <mxCell id="label_trigger" value="Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group_iot" vertex="1" connectable="0">
           <mxGeometry x="240" y="65" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-218" value="Gửi yêu cầu API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
+        <mxCell id="bg_backend" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE7F6;strokeColor=#B39DDB;strokeWidth=2;opacity=80;" parent="group_backend" vertex="1">
+          <mxGeometry width="410" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="title_backend" value="Microservices Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group_backend" vertex="1">
+          <mxGeometry y="20" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_gke" value="&lt;b&gt;Google Kubernetes Engine&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/kubernetes_engine-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_backend" vertex="1">
+          <mxGeometry x="40" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_education_module" value="&lt;b&gt;EDUCATION Module&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;(NestJS)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/nestjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_backend" vertex="1">
+          <mxGeometry x="200" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_farm_module" value="&lt;b&gt;FARM Module&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;(NestJS)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/nestjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_backend" vertex="1">
+          <mxGeometry x="200" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_factory_module" value="&lt;b&gt;FACTORY Module&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;(NestJS)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/nestjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_backend" vertex="1">
+          <mxGeometry x="200" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_shop_module" value="&lt;b&gt;SHOP Module&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;(NestJS)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/nestjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_backend" vertex="1">
+          <mxGeometry x="200" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="line_backend_outbound" value="" style="shape=line;strokeWidth=2;direction=south;html=1;" parent="group_backend" vertex="1">
+          <mxGeometry x="330" y="80" width="10" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="label_api_requests" value="API Requests" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group_backend" vertex="1" connectable="0">
+          <mxGeometry x="35" y="250" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bg_data" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFEBE9;strokeColor=#BCAAA4;strokeWidth=2;opacity=80;" parent="group_data" vertex="1">
+          <mxGeometry width="280" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="title_data" value="Data Stores" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group_data" vertex="1">
+          <mxGeometry y="20" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_postgres" value="&lt;b&gt;Cloud SQL&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(PostgreSQL)&lt;br&gt;Dữ liệu có cấu trúc&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/postgresql;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_data" vertex="1">
+          <mxGeometry x="80" y="80" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_firestore" value="&lt;b&gt;Firestore&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Dữ liệu bán cấu trúc&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_firestore-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_data" vertex="1">
+          <mxGeometry x="80" y="250" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_redis" value="&lt;b&gt;Memorystore&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(Redis Caching)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/redis;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_data" vertex="1">
+          <mxGeometry x="80" y="420" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_analytics" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2F1;strokeColor=#80CBC4;strokeWidth=2;opacity=80;" parent="group_analytics" vertex="1">
+          <mxGeometry width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="title_analytics" value="Data Analytics &amp;amp; Business Intelligence (BI)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group_analytics" vertex="1">
+          <mxGeometry y="20" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_metabase" value="&lt;b&gt;Metabase&lt;/b&gt;&lt;br&gt;(Open Source BI Tool)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/metabase;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_analytics" vertex="1">
+          <mxGeometry x="80" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_bigquery" value="&lt;b&gt;BigQuery&lt;/b&gt;&lt;br&gt;&lt;div&gt;(Data Warehouse)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/bigquery-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_analytics" vertex="1">
+          <mxGeometry x="290" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="label_query_data" value="Query Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group_analytics" vertex="1" connectable="0">
+          <mxGeometry x="185" y="105" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bg_devops" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#F8BBD0;strokeWidth=2;opacity=80;" parent="group_devops" vertex="1">
+          <mxGeometry width="520" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="title_devops" value="Quy trình Phát triển, Vận hành &amp;amp; Xác thực" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group_devops" vertex="1">
+          <mxGeometry y="20" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_github" value="&lt;b&gt;GitHub&lt;/b&gt;&lt;br&gt;(Source Code Management)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/github;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_devops" vertex="1">
+          <mxGeometry x="40" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_cloud_build" value="&lt;b&gt;CI/CD Pipeline&lt;/b&gt;&lt;br&gt;(Cloud Build)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_build-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_devops" vertex="1">
+          <mxGeometry x="210" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="label_trigger_cicd" value="Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group_devops" vertex="1" connectable="0">
+          <mxGeometry x="145" y="105" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icon_identity_platform" value="&lt;b&gt;Google Identity Platform&lt;/b&gt;&lt;br&gt;(SSO, MFA, RBAC)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/identity_platform-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_devops" vertex="1">
+          <mxGeometry x="340" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_cloud_logging" value="&lt;b&gt;Cloud Logging&lt;/b&gt;&lt;br&gt;(Audit Logs)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/logging-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="980" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="label_deploy_to_gke" value="Deploy to GKE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="965" y="945" as="geometry">
+            <mxPoint x="2" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_write_logs" value="Ghi Logs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1405" y="945" as="geometry">
+            <mxPoint x="-1" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_auth" value="Xác thực &amp;amp; Phân quyền" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="815" y="755" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_embed_dashboard" value="Nhúng Dashboard" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="724" y="965" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_iot_api" value="Gửi yêu cầu API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="869" y="385" as="geometry">
             <mxPoint x="14" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="line-clients-to-edge" target="h1_QW3-1zJkIe430p1bT-26" edge="1">
+        <mxCell id="edge_clients_to_armor" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="line_clients_outbound" target="icon_cloud_armor" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="500" as="sourcePoint" />
-            <mxPoint x="370" y="450" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-26" target="h1_QW3-1zJkIe430p1bT-25" edge="1">
+        <mxCell id="edge_armor_to_lb" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_cloud_armor" target="icon_load_balancer" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="700" as="sourcePoint" />
-            <mxPoint x="540" y="650" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-25" target="h1_QW3-1zJkIe430p1bT-171" edge="1">
+        <mxCell id="edge_lb_to_cloudrun" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="icon_load_balancer" target="icon_cloud_run" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="630" y="660" as="sourcePoint" />
-            <mxPoint x="470" y="540" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-171" target="h1_QW3-1zJkIe430p1bT-157" edge="1">
+        <mxCell id="edge_cloudrun_to_react" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="icon_cloud_run" target="icon_react_app" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="450" as="sourcePoint" />
-            <mxPoint x="530" y="400" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-5" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-171" target="h1_QW3-1zJkIe430p1bT-156" edge="1">
+        <mxCell id="edge_cloudrun_to_nextjs" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="icon_cloud_run" target="icon_nextjs_app" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="440" as="sourcePoint" />
-            <mxPoint x="550" y="390" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
             <Array as="points">
-              <mxPoint x="470" y="240" />
-              <mxPoint x="620" y="240" />
+              <mxPoint x="490" y="260" />
+              <mxPoint x="650" y="260" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-157" target="h1_QW3-1zJkIe430p1bT-151" edge="1">
+        <mxCell id="edge_react_to_apigw" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_react_app" target="icon_api_gateway" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="330" as="sourcePoint" />
-            <mxPoint x="730" y="490" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-7" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-156" target="h1_QW3-1zJkIe430p1bT-151" edge="1">
+        <mxCell id="edge_nextjs_to_apigw" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_nextjs_app" target="icon_api_gateway" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="330" as="sourcePoint" />
-            <mxPoint x="740" y="340" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-8" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-151" target="Kk73rJ7P9s22v42H_x5k-12" edge="1">
+        <mxCell id="edge_apigw_to_gke" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_api_gateway" target="icon_gke" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="510" as="sourcePoint" />
-            <mxPoint x="930" y="260" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-9" value="Đọc/Ghi" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="line-for-api-request" target="h1_QW3-1zJkIe430p1bT-62" edge="1">
+        <mxCell id="edge_backend_to_postgres" value="Đọc/Ghi" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="line_backend_outbound" target="icon_postgres" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1290" y="530" as="sourcePoint" />
-            <mxPoint x="1340" y="480" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-10" value="Đọc/Ghi" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="line-for-api-request" target="h1_QW3-1zJkIe430p1bT-64" edge="1">
+        <mxCell id="edge_backend_to_firestore" value="Đọc/Ghi" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="line_backend_outbound" target="icon_firestore" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1300" y="525" as="sourcePoint" />
-            <mxPoint x="1476" y="310" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-11" value="Đọc/Ghi Cache" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="line-for-api-request" target="h1_QW3-1zJkIe430p1bT-65" edge="1">
+        <mxCell id="edge_backend_to_redis" value="Đọc/Ghi Cache" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="line_backend_outbound" target="icon_redis" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1310" y="525" as="sourcePoint" />
-            <mxPoint x="1476" y="480" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-13" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-108" target="h1_QW3-1zJkIe430p1bT-110" edge="1">
+        <mxCell id="edge_github_to_cicd" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_github" target="icon_cloud_build" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="950" as="sourcePoint" />
-            <mxPoint x="560" y="900" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-14" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-110" target="Kk73rJ7P9s22v42H_x5k-12" edge="1">
+        <mxCell id="edge_cicd_to_gke" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="icon_cloud_build" target="icon_gke" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="950" as="sourcePoint" />
-            <mxPoint x="990" y="870" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;dashed=1;dashPattern=8 8;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-151" target="h1_QW3-1zJkIe430p1bT-146" edge="1">
+        <mxCell id="edge_apigw_to_identity" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;dashed=1;dashPattern=8 8;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_api_gateway" target="icon_identity_platform" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="550" as="sourcePoint" />
-            <mxPoint x="830" y="500" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-16" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;dashed=1;dashPattern=8 8;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="group-backend" target="h1_QW3-1zJkIe430p1bT-136" edge="1">
+        <mxCell id="edge_backend_to_logging" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;dashed=1;dashPattern=8 8;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="group_backend" target="icon_cloud_logging" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1290" y="800" as="sourcePoint" />
-            <mxPoint x="1340" y="750" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-17" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-92" target="h1_QW3-1zJkIe430p1bT-62" edge="1">
+        <mxCell id="edge_postgres_to_bigquery" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="icon_bigquery" target="icon_postgres" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1456" y="450" as="sourcePoint" />
-            <mxPoint x="1220" y="950" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
             <Array as="points">
               <mxPoint x="1450" y="1020" />
               <mxPoint x="1450" y="140" />
@@ -330,10 +330,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-18" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-92" target="h1_QW3-1zJkIe430p1bT-64" edge="1">
+        <mxCell id="edge_firestore_to_bigquery" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="icon_bigquery" target="icon_firestore" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1466" y="620" as="sourcePoint" />
-            <mxPoint x="1220" y="950" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
             <Array as="points">
               <mxPoint x="1450" y="1020" />
               <mxPoint x="1450" y="140" />
@@ -342,34 +342,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-92" target="h1_QW3-1zJkIe430p1bT-93" edge="1">
+        <mxCell id="edge_bigquery_to_metabase" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_bigquery" target="icon_metabase" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1120" y="950" as="sourcePoint" />
-            <mxPoint x="1010" y="950" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-20" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-93" target="h1_QW3-1zJkIe430p1bT-157" edge="1">
+        <mxCell id="edge_metabase_to_react" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="icon_metabase" target="icon_react_app" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="910" y="890" as="sourcePoint" />
-            <mxPoint x="470" y="440" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-23" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-210" target="h1_QW3-1zJkIe430p1bT-211" edge="1">
+        <mxCell id="edge_iot_to_pubsub" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_iot_devices" target="icon_pubsub" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="390" as="sourcePoint" />
-            <mxPoint x="550" y="340" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-24" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-211" target="h1_QW3-1zJkIe430p1bT-214" edge="1">
+        <mxCell id="edge_pubsub_to_functions" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_pubsub" target="icon_cloud_functions" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="390" as="sourcePoint" />
-            <mxPoint x="650" y="340" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-25" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="h1_QW3-1zJkIe430p1bT-214" target="h1_QW3-1zJkIe430p1bT-151" edge="1">
+        <mxCell id="edge_functions_to_apigw" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_cloud_functions" target="icon_api_gateway" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="330" as="sourcePoint" />
-            <mxPoint x="720" y="340" as="targetPoint" />
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
