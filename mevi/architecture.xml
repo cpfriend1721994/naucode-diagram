@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="MEVI_Architecture_Final" id="MEVI_Arch_Diagram">
-    <mxGraphModel dx="2502" dy="1408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="3128" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bg_gcp_main" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#C5E1A5;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="350" y="10" width="1530" height="1330" as="geometry" />
+          <mxGeometry x="350" y="10" width="1520" height="1300" as="geometry" />
         </mxCell>
         <mxCell id="ysI_Xdf6lfOHpssx3T2I-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;opacity=80;" vertex="1" parent="1">
-          <mxGeometry x="910" y="80" width="520" height="230" as="geometry" />
+          <mxGeometry x="900" y="80" width="510" height="230" as="geometry" />
         </mxCell>
         <mxCell id="title_gcp_main" value="Google Cloud Platform (GCP)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="970" y="20" width="270" height="30" as="geometry" />
@@ -41,22 +41,32 @@
           <mxGeometry x="380" y="160" width="480" height="450" as="geometry" />
         </mxCell>
         <mxCell id="bg_frontend" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FFCC80;strokeWidth=2;opacity=80;" parent="group_frontend" vertex="1">
-          <mxGeometry width="480" height="450" as="geometry" />
+          <mxGeometry y="50" width="480" height="400" as="geometry" />
         </mxCell>
         <mxCell id="title_frontend" value="Frontend Applications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group_frontend" vertex="1">
-          <mxGeometry y="20" width="480" height="30" as="geometry" />
+          <mxGeometry y="60" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="icon_react_app" value="&lt;b&gt;Admin &amp;amp; E-learning&lt;/b&gt;&lt;br&gt;&lt;i&gt;ReactJS&lt;/i&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/react;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_frontend" vertex="1">
-          <mxGeometry x="80" y="140" width="80" height="80" as="geometry" />
+          <mxGeometry x="80" y="130" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="icon_nextjs_app" value="&lt;b&gt;Public Website&lt;br&gt;&lt;/b&gt;&lt;i&gt;Next.js&lt;/i&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/nextdotjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_frontend" vertex="1">
-          <mxGeometry x="270" y="140" width="80" height="80" as="geometry" />
+          <mxGeometry x="270" y="130" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="icon_cloud_run" value="&lt;b&gt;Frontend Hosting&lt;/b&gt;&lt;br&gt;Cloud Run" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_run-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_frontend" vertex="1">
           <mxGeometry x="80" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="icon_api_gateway" value="&lt;b&gt;API Gateway&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/api_gateway-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_frontend" vertex="1">
           <mxGeometry x="370" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ysI_Xdf6lfOHpssx3T2I-23" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;endFill=0;" edge="1" parent="group_frontend">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="260" as="sourcePoint" />
+            <mxPoint x="350" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="260" />
+              <mxPoint x="110" y="260" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="group_edge" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="380" y="660" width="480" height="200" as="geometry" />
@@ -68,10 +78,10 @@
           <mxGeometry y="20" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="icon_cloud_armor" value="&lt;b&gt;Cloud Armor&lt;/b&gt;&lt;br&gt;(DDoS Protection)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_armor-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_edge" vertex="1">
-          <mxGeometry x="80" y="70" width="80" height="80" as="geometry" />
+          <mxGeometry x="60" y="70" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="icon_load_balancer" value="&lt;div&gt;&lt;b&gt;Cloud Load Balancing&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(Global External HTTPS LB)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_load_balancing-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_edge" vertex="1">
-          <mxGeometry x="270" y="70" width="80" height="80" as="geometry" />
+          <mxGeometry x="280" y="70" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="group_iot" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="970" y="110" width="420" height="180" as="geometry" />
@@ -121,7 +131,7 @@
           <mxGeometry x="200" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="group_data" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1560" y="350" width="280" height="580" as="geometry" />
+          <mxGeometry x="1560" y="360" width="280" height="580" as="geometry" />
         </mxCell>
         <mxCell id="bg_data" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFEBE9;strokeColor=#BCAAA4;strokeWidth=2;opacity=80;" parent="group_data" vertex="1">
           <mxGeometry width="280" height="580" as="geometry" />
@@ -130,13 +140,13 @@
           <mxGeometry y="20" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="icon_postgres" value="&lt;b&gt;Cloud SQL&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(PostgreSQL)&lt;br&gt;Dữ liệu có cấu trúc&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/postgresql;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_data" vertex="1">
-          <mxGeometry x="80" y="80" width="120" height="120" as="geometry" />
+          <mxGeometry x="95" y="90" width="90" height="100" as="geometry" />
         </mxCell>
         <mxCell id="icon_firestore" value="&lt;b&gt;Firestore&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Dữ liệu bán cấu trúc&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_firestore-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_data" vertex="1">
-          <mxGeometry x="80" y="250" width="120" height="120" as="geometry" />
+          <mxGeometry x="95" y="260" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="icon_redis" value="&lt;b&gt;Memorystore&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(Redis Caching)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/redis;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_data" vertex="1">
-          <mxGeometry x="80" y="420" width="120" height="120" as="geometry" />
+          <mxGeometry x="95" y="430" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="group_devops" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="380" y="980" width="520" height="230" as="geometry" />
@@ -189,36 +199,41 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="ysI_Xdf6lfOHpssx3T2I-18" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Client Requests&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_clients_to_armor">
+          <mxGeometry x="-0.2137" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="edge_armor_to_lb" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_cloud_armor" target="icon_load_balancer" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint as="sourcePoint" />
             <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysI_Xdf6lfOHpssx3T2I-10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;API Filtering&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_armor_to_lb">
+        <mxCell id="ysI_Xdf6lfOHpssx3T2I-10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Request Filtering&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_armor_to_lb">
           <mxGeometry x="0.0979" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_lb_to_cloudrun" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="icon_load_balancer" target="icon_cloud_run" edge="1">
+        <mxCell id="edge_lb_to_cloudrun" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="icon_load_balancer" target="bg_frontend" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint as="sourcePoint" />
-            <mxPoint as="targetPoint" />
+            <mxPoint x="690" y="610" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="690" y="630" />
-              <mxPoint x="500" y="630" />
+              <mxPoint x="700" y="640" />
+              <mxPoint x="700" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysI_Xdf6lfOHpssx3T2I-15" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;API Requests&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_lb_to_cloudrun">
+        <mxCell id="ysI_Xdf6lfOHpssx3T2I-15" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;HTTP Requests&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_lb_to_cloudrun">
           <mxGeometry x="0.1008" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_cloudrun_to_react" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="icon_cloud_run" target="icon_react_app" edge="1">
+        <mxCell id="edge_cloudrun_to_react" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="icon_cloud_run" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint as="sourcePoint" />
-            <mxPoint as="targetPoint" />
+            <mxPoint x="500" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ysI_Xdf6lfOHpssx3T2I-12" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Serve static assets&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_cloudrun_to_react">
@@ -226,23 +241,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_react_to_apigw" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_react_app" target="icon_api_gateway" edge="1">
+        <mxCell id="edge_nextjs_to_apigw" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" parent="1" target="icon_api_gateway" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint as="sourcePoint" />
-            <mxPoint as="targetPoint" />
+            <mxPoint x="620" y="440" as="sourcePoint" />
+            <mxPoint x="750" y="630" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="600" y="340" />
-              <mxPoint x="600" y="520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="edge_nextjs_to_apigw" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_nextjs_app" target="icon_api_gateway" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint as="sourcePoint" />
-            <mxPoint as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="600" y="340" />
-              <mxPoint x="600" y="520" />
+              <mxPoint x="620" y="440" />
+              <mxPoint x="620" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -251,12 +256,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ysI_Xdf6lfOHpssx3T2I-16" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;HTTP Requests&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_nextjs_to_apigw">
+        <mxCell id="ysI_Xdf6lfOHpssx3T2I-16" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Call Backend&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_nextjs_to_apigw">
           <mxGeometry x="0.5048" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_apigw_to_gke" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="icon_api_gateway" target="bg_backend" edge="1">
+        <mxCell id="edge_apigw_to_gke" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.292;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="icon_api_gateway" target="bg_backend" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint as="sourcePoint" />
             <mxPoint as="targetPoint" />
@@ -267,23 +272,21 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_backend_to_postgres" value="Đọc/Ghi Data" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.241;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bg_backend" target="icon_postgres" edge="1">
+        <mxCell id="edge_backend_to_postgres" value="Đọc/Ghi Data" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" parent="1" target="icon_postgres" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1337.5" y="810" as="sourcePoint" />
+            <mxPoint x="1410" y="500" as="sourcePoint" />
             <mxPoint as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1470" y="490" />
-              <mxPoint x="1470" y="490" />
+              <mxPoint x="1410" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_backend_to_firestore" value="Đọc/Ghi Data" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.533;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="bg_backend" target="icon_firestore" edge="1">
+        <mxCell id="edge_backend_to_firestore" value="Đọc/Ghi Data" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1335" y="810" as="sourcePoint" />
-            <mxPoint as="targetPoint" />
+            <mxPoint x="1410" y="660" as="sourcePoint" />
+            <mxPoint x="1655.82" y="660" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1440" y="659" />
-              <mxPoint x="1540" y="660" />
+              <mxPoint x="1409.82" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -350,7 +353,6 @@
             <mxPoint as="targetPoint" />
             <Array as="points">
               <mxPoint x="1700" y="1100" />
-              <mxPoint x="1700" y="930" />
             </Array>
           </mxGeometry>
         </mxCell>
