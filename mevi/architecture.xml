@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2025-09-21T02:34:14.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="q_lXJg2Vw4_mN-07_B3q" version="24.7.4" type="device">
+<mxfile host="app.diagrams.net" modified="2025-09-21T02:55:14.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="q_lXJg2Vw4_mN-07_B3q" version="24.7.4" type="device">
   <diagram name="Page-1" id="3Wz-Y56wL98hJcMAcrOa">
     <mxGraphModel dx="2123" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1500" math="0" shadow="0">
       <root>
@@ -46,10 +46,10 @@
         <mxCell id="h1_QW3-1zJkIe430p1bT-37" value="GCP Edge &amp;amp; Security" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group-edge" vertex="1">
           <mxGeometry x="10" y="10" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-26" value="&lt;b&gt;Cloud Armor&lt;/b&gt;&lt;br&gt;(DDoS Protection)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlecloud;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-edge" vertex="1">
+        <mxCell id="h1_QW3-1zJkIe430p1bT-26" value="&lt;b&gt;Cloud Armor&lt;/b&gt;&lt;br&gt;(DDoS Protection)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_armor-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-edge" vertex="1">
           <mxGeometry x="50" y="50" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-25" value="&lt;div&gt;&lt;b&gt;Cloud Load Balancing&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(Global External HTTPS LB)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlecloud;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-edge" vertex="1">
+        <mxCell id="h1_QW3-1zJkIe430p1bT-25" value="&lt;div&gt;&lt;b&gt;Cloud Load Balancing&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(Global External HTTPS LB)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_load_balancing-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-edge" vertex="1">
           <mxGeometry x="200" y="50" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="group-frontend" style="group" parent="1" vertex="1" connectable="0">
@@ -67,10 +67,10 @@
         <mxCell id="h1_QW3-1zJkIe430p1bT-156" value="&lt;b&gt;Public Website&lt;br&gt;&lt;/b&gt;&lt;i&gt;Next.js&lt;/i&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=12;shape=image;image=https://cdn.simpleicons.org/nextdotjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-frontend" vertex="1">
           <mxGeometry x="200" y="120" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-171" value="&lt;b&gt;Frontend Hosting&lt;/b&gt;&lt;br&gt;Cloud Run" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlecloudrun;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-frontend" vertex="1">
+        <mxCell id="h1_QW3-1zJkIe430p1bT-171" value="&lt;b&gt;Frontend Hosting&lt;/b&gt;&lt;br&gt;Cloud Run" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_run-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-frontend" vertex="1">
           <mxGeometry x="50" y="300" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-151" value="&lt;b&gt;API Gateway&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlecloud;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-frontend" vertex="1">
+        <mxCell id="h1_QW3-1zJkIe430p1bT-151" value="&lt;b&gt;API Gateway&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/api_gateway-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-frontend" vertex="1">
           <mxGeometry x="350" y="300" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="A5h6l5R830i5kY2y2g3p-4" value="Serve static assets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group-frontend" vertex="1" connectable="0">
@@ -87,7 +87,7 @@
         <mxCell id="h1_QW3-1zJkIe430p1bT-46" value="Microservices Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group-backend" vertex="1">
           <mxGeometry x="10" y="10" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Kk73rJ7P9s22v42H_x5k-12" value="&lt;b&gt;Google Kubernetes Engine&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlekubernetesengine;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-backend" vertex="1">
+        <mxCell id="Kk73rJ7P9s22v42H_x5k-12" value="&lt;b&gt;Google Kubernetes Engine&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/kubernetes_engine-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-backend" vertex="1">
           <mxGeometry x="20" y="220" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h1_QW3-1zJkIe430p1bT-52" value="&lt;b&gt;EDUCATION Module&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;(NestJS)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/nestjs;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-backend" vertex="1">
@@ -122,7 +122,7 @@
         <mxCell id="h1_QW3-1zJkIe430p1bT-62" value="&lt;b&gt;Cloud SQL&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(PostgreSQL)&lt;br&gt;Dữ liệu có cấu trúc&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/postgresql;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-data" vertex="1">
           <mxGeometry x="76" y="80" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-64" value="&lt;b&gt;Firestore&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Dữ liệu bán cấu trúc&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlecloudfirestore;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-data" vertex="1">
+        <mxCell id="h1_QW3-1zJkIe430p1bT-64" value="&lt;b&gt;Firestore&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Dữ liệu bán cấu trúc&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_firestore-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-data" vertex="1">
           <mxGeometry x="76" y="250" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="h1_QW3-1zJkIe430p1bT-65" value="&lt;b&gt;Memorystore&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(Redis Caching)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/redis;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-data" vertex="1">
@@ -140,7 +140,7 @@
         <mxCell id="h1_QW3-1zJkIe430p1bT-93" value="&lt;b&gt;Metabase&lt;/b&gt;&lt;br&gt;(Open Source BI Tool)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/metabase;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-analytics" vertex="1">
           <mxGeometry x="80" y="60" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-92" value="&lt;b&gt;BigQuery&lt;/b&gt;&lt;br&gt;&lt;div&gt;(Data Warehouse)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlebigquery;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-analytics" vertex="1">
+        <mxCell id="h1_QW3-1zJkIe430p1bT-92" value="&lt;b&gt;BigQuery&lt;/b&gt;&lt;br&gt;&lt;div&gt;(Data Warehouse)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/bigquery-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-analytics" vertex="1">
           <mxGeometry x="290" y="60" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h1_QW3-1zJkIe430p1bT-95" value="Query Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group-analytics" vertex="1" connectable="0">
@@ -160,7 +160,7 @@
         <mxCell id="h1_QW3-1zJkIe430p1bT-108" value="&lt;b&gt;GitHub&lt;/b&gt;&lt;br&gt;(Source Code Management)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/github;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-devops" vertex="1">
           <mxGeometry x="40" y="60" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-110" value="&lt;b&gt;CI/CD Pipeline&lt;/b&gt;&lt;br&gt;(Cloud Build)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlecloudbuild;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-devops" vertex="1">
+        <mxCell id="h1_QW3-1zJkIe430p1bT-110" value="&lt;b&gt;CI/CD Pipeline&lt;/b&gt;&lt;br&gt;(Cloud Build)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_build-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-devops" vertex="1">
           <mxGeometry x="210" y="60" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h1_QW3-1zJkIe430p1bT-112" value="Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group-devops" vertex="1" connectable="0">
@@ -168,7 +168,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-146" value="&lt;b&gt;Google Identity Platform&lt;/b&gt;&lt;br&gt;(SSO, MFA, RBAC)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlecloud;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-devops" vertex="1">
+        <mxCell id="h1_QW3-1zJkIe430p1bT-146" value="&lt;b&gt;Google Identity Platform&lt;/b&gt;&lt;br&gt;(SSO, MFA, RBAC)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/identity_platform-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-devops" vertex="1">
           <mxGeometry x="340" y="60" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h1_QW3-1zJkIe430p1bT-116" value="Deploy to GKE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
@@ -176,7 +176,7 @@
             <mxPoint x="2" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-136" value="&lt;b&gt;Cloud Logging&lt;/b&gt;&lt;br&gt;(Audit Logs)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlecloud;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="1" vertex="1">
+        <mxCell id="h1_QW3-1zJkIe430p1bT-136" value="&lt;b&gt;Cloud Logging&lt;/b&gt;&lt;br&gt;(Audit Logs)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/logging-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="1" vertex="1">
           <mxGeometry x="1500" y="920" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h1_QW3-1zJkIe430p1bT-138" value="Ghi Logs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="1" vertex="1" connectable="0">
@@ -203,10 +203,10 @@
         <mxCell id="h1_QW3-1zJkIe430p1bT-210" value="&lt;b&gt;IoT Devices&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(Cảm biến)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/espressif;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-iot" vertex="1">
           <mxGeometry width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-211" value="&lt;b&gt;Cloud Pub/Sub&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlecloudpubsub;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-iot" vertex="1">
+        <mxCell id="h1_QW3-1zJkIe430p1bT-211" value="&lt;b&gt;Cloud Pub/Sub&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_pub-sub-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-iot" vertex="1">
           <mxGeometry x="140" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h1_QW3-1zJkIe430p1bT-214" value="&lt;b&gt;Cloud Functions&lt;/b&gt;&lt;br&gt;(Xử lý dữ liệu IoT)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/googlecloudfunctions;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-iot" vertex="1">
+        <mxCell id="h1_QW3-1zJkIe430p1bT-214" value="&lt;b&gt;Cloud Functions&lt;/b&gt;&lt;br&gt;(Xử lý dữ liệu IoT)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_functions-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group-iot" vertex="1">
           <mxGeometry x="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h1_QW3-1zJkIe430p1bT-213" value="Data Stream" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="group-iot" vertex="1" connectable="0">
