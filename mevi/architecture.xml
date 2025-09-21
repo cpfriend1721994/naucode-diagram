@@ -4,14 +4,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="diagram_title" value="Kiến trúc Hệ thống MEVI trên Google Cloud Platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="725" y="30" width="640" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="bg_gcp_main" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F8E9;strokeColor=#C5E1A5;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="360" y="80" width="1520" height="1240" as="geometry" />
+          <mxGeometry x="350" y="10" width="1530" height="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="ysI_Xdf6lfOHpssx3T2I-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="910" y="80" width="520" height="230" as="geometry" />
         </mxCell>
         <mxCell id="title_gcp_main" value="Google Cloud Platform (GCP)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="970" y="90" width="270" height="30" as="geometry" />
+          <mxGeometry x="970" y="20" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="group_clients" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="10" y="420" width="310" height="710" as="geometry" />
@@ -74,16 +74,27 @@
           <mxGeometry x="270" y="70" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="group_iot" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="980" y="160" width="410" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="title_iot" value="Mở rộng trong tương lai (IoT)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="group_iot" vertex="1">
-          <mxGeometry y="10" width="410" height="30" as="geometry" />
+          <mxGeometry x="970" y="110" width="420" height="180" as="geometry" />
         </mxCell>
         <mxCell id="icon_pubsub" value="&lt;b&gt;Cloud Pub/Sub&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_pub-sub-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_iot" vertex="1">
           <mxGeometry x="150" y="40" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="icon_cloud_functions" value="&lt;b&gt;Cloud Functions&lt;/b&gt;&lt;br&gt;(Xử lý dữ liệu IoT)" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.jsdelivr.net/gh/httpsain/gcp-icons/icons/svg/color/cloud_functions-color.svg;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_iot" vertex="1">
           <mxGeometry x="340" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="icon_iot_devices" value="&lt;b&gt;IoT Devices&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(Cảm biến)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/espressif;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="group_iot" vertex="1">
+          <mxGeometry x="-50" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_iot_to_pubsub" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="group_iot" source="icon_iot_devices" target="icon_pubsub" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-970" y="-110" as="sourcePoint" />
+            <mxPoint x="-970" y="-110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ysI_Xdf6lfOHpssx3T2I-9" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Data Stream&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_iot_to_pubsub">
+          <mxGeometry x="-0.3818" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="group_backend" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1000" y="350" width="410" height="580" as="geometry" />
@@ -193,6 +204,10 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint as="sourcePoint" />
             <mxPoint as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="630" />
+              <mxPoint x="500" y="630" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ysI_Xdf6lfOHpssx3T2I-15" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;API Requests&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_lb_to_cloudrun">
@@ -241,7 +256,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_apigw_to_gke" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_api_gateway" target="icon_gke" edge="1">
+        <mxCell id="edge_apigw_to_gke" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="icon_api_gateway" target="bg_backend" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint as="sourcePoint" />
             <mxPoint as="targetPoint" />
@@ -252,7 +267,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_backend_to_postgres" value="Đọc/Ghi" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.241;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bg_backend" target="icon_postgres" edge="1">
+        <mxCell id="edge_backend_to_postgres" value="Đọc/Ghi Data" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.241;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bg_backend" target="icon_postgres" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1337.5" y="810" as="sourcePoint" />
             <mxPoint as="targetPoint" />
@@ -262,7 +277,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_backend_to_firestore" value="Đọc/Ghi" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.533;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="bg_backend" target="icon_firestore" edge="1">
+        <mxCell id="edge_backend_to_firestore" value="Đọc/Ghi Data" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.533;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="bg_backend" target="icon_firestore" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1335" y="810" as="sourcePoint" />
             <mxPoint as="targetPoint" />
@@ -329,23 +344,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge_postgres_to_bigquery" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="icon_bigquery" target="icon_postgres" edge="1">
+        <mxCell id="edge_firestore_to_bigquery" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="icon_bigquery" target="bg_data" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint as="sourcePoint" />
             <mxPoint as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1810" y="1100" />
-              <mxPoint x="1810" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="edge_firestore_to_bigquery" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="icon_bigquery" target="icon_firestore" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint as="sourcePoint" />
-            <mxPoint as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1810" y="1100" />
-              <mxPoint x="1810" y="690" />
+              <mxPoint x="1700" y="1100" />
+              <mxPoint x="1700" y="930" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -362,17 +367,6 @@
         </mxCell>
         <mxCell id="ysI_Xdf6lfOHpssx3T2I-3" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Nhúng Dashboard&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_bigquery_to_metabase">
           <mxGeometry x="0.0328" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="edge_iot_to_pubsub" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="icon_iot_devices" target="icon_pubsub" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint as="sourcePoint" />
-            <mxPoint as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ysI_Xdf6lfOHpssx3T2I-9" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Data Stream&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="edge_iot_to_pubsub">
-          <mxGeometry x="-0.3818" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -402,8 +396,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="icon_iot_devices" value="&lt;b&gt;IoT Devices&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;(Cảm biến)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=11;shape=image;image=https://cdn.simpleicons.org/espressif;verticalLabelPosition=bottom;verticalAlign=top;imageBorder=none;imageBackground=none;" parent="1" vertex="1">
-          <mxGeometry x="930" y="200" width="80" height="80" as="geometry" />
+        <mxCell id="title_iot" value="Internet of Things" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="970" y="90" width="410" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
